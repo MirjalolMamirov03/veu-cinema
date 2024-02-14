@@ -47,4 +47,47 @@ ul {
 
 /* //CONTAINER */
 
+
+/* BTN */
+
+.all-btn {
+    display: inline-block;
+    max-width: 166px;
+    width: 100%;
+    background-color: var(--primary-orange);
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+    color: #000;
+    transition: .5s;
+}
+
+.all-btn:active {
+    background-color: var(--dark-blue);
+    color: var(--primary-white);
+    cursor: pointer;
+}
+
+/* //BTN */
+
+/* TITLE */
+
+.title {
+    color: var(--primary-orange);
+    font-family: var(--Comfortaa);
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--primary-orange);
+    width: max-content;
+}
+
+/* //TITLE */
+
  
