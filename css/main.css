@@ -90,4 +90,29 @@ ul {
 
 /* //TITLE */
 
+/* SITE-ADS */
+
+.site-ads {
+    display: block;
+    background: linear-gradient(90deg, #0031AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-white);
+    column-gap: 24px;
+}
+
+.ads-text {
+    max-width: 166px;
+    width: 100%;
+    font-family: var(--Comfortaa);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* //SITE-ADS */
+
+
  
