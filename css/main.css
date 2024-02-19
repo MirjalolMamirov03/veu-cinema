@@ -424,6 +424,7 @@ body {
     justify-content: center;
     align-items: center;
     row-gap: 15px;
+    cursor: pointer;
 }
 
 .collections-card__link {
@@ -473,6 +474,62 @@ body {
 /* //ANIMATION */
 
 /* //COLLECTIONS SECTION */
+
+
+/* SERIES SECTION */
+
+.series {
+    margin-bottom: 65px;
+}
+
+.series-card__lg {
+    height: 436px;
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.series-card__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.series-card__content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(96deg, rgba(35, 35, 35, 0.80) 10.25%, rgba(11, 11, 11, 0.60) 110.25%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 28px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.series-card-lg__title {
+    color: var(--primary-white);
+    font-family: var(--Comfortaa);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.series-card-lg__text {
+    color: var(--primary-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--Comfortaa);
+}
+
+/* //SERIES SECTION */
 
 
 
