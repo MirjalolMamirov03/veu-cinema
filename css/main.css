@@ -37,6 +37,22 @@ body {
     background-color: var(--dark-blue);
 }
 
+/* SCROLL */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-blue);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-orange);
+}
+
+/* //SCROLL */
+
 /*// GLOBAL-STYLES */
 
 /* CONTAINER */
@@ -529,7 +545,6 @@ body {
     font-family: var(--Comfortaa);
 }
 
-/* //SERIES SECTION */
 
 /* GRID */
 
@@ -592,6 +607,40 @@ body {
 }
 
 /* //GRID */
+
+/* //SERIES SECTION */
+
+
+/* FOOTER */
+
+.site-footer {
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-app {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--primary-white);
+    font-family: var(--Comfortaa);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
+
+/* //FOOTER */
+
 
 
 
