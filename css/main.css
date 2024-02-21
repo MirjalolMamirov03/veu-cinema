@@ -593,8 +593,13 @@ body {
     border-radius: 6px;
 }
 
+.series-content:hover .series-link{
+    transform: scale(1.4);        
+}
+
 .series-link {
     color: var(--primary-white);
+    transition: .5s;
 }
 
 
